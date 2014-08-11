@@ -1,0 +1,24 @@
+{
+  "name": "d-barchart-d3",
+  "version": "0.0.1",
+  "description": "Derby bar chart component using d3 and d3-tip.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmapper/d-barchart-d3.git"
+  },
+  "keywords": [
+    "derby",
+    "component",
+    "d3"
+  ],
+  "author": "Osman Mazinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmapper/d-barchart-d3/issues"
+  },
+  "homepage": "https://github.com/dmapper/d-barchart-d3"
+}
