@@ -2,9 +2,31 @@
   "name": "d-barchart-d3",
   "version": "0.0.1",
   "description": "Derby bar chart component using d3 and d3-tip.",
-  "main": "index.js",
+  "main": "index.coffee",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-notify": "*",
+    "grunt-bower-task": "*",
+    "load-grunt-tasks": "*"
+  },
+  "peerDependencies": {
+    "derby-jade": "0.6.10",
+    "derby-stylus": "git://github.com/cray0000/derby-stylus",
+    "yamlify": "~0.1.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "grunt build"
   },
   "repository": {
     "type": "git",
