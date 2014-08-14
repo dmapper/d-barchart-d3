@@ -4,7 +4,7 @@ d3 = require 'd3'
 drawBars = (dom, data, propertyNames, groupByKey, width,
               height, margin, axisHeaders, legendConfig, colors) ->
 
-  require './d3.tip.min.js'
+  require './js/vendor/d3.tip.min.js'
 
   # scales
   x0 = d3.scale.ordinal().rangeRoundBands([0, width], .1)
